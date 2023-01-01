@@ -166,7 +166,7 @@ class ViewAttendance extends JFrame implements ActionListener{
         jp.add(menu);
 
         jp.setLayout(null);
-        jf.setSize(650, 600);
+        jf.setBounds(300, 120, 650, 600);
         jf.setVisible(true);
     }
 
@@ -223,7 +223,7 @@ class MarkAttendance extends JFrame implements ActionListener{
         mark.addActionListener(this);
 
         jp.setLayout(null);
-        jf.setSize(350, 450);
+        jf.setBounds(300, 120, 350, 450);
         jf.setVisible(true);
     }
 
@@ -284,7 +284,7 @@ class Menu extends JFrame implements ActionListener{
         b3.addActionListener(this);
 
         jp.setLayout(null);
-        jf.setSize(400, 330);
+        jf.setBounds(300, 120, 400, 330);
         jf.setVisible(true);
     }
 
@@ -341,8 +341,7 @@ class LoginPage extends JFrame implements ActionListener{
         jp.add(name);
 
         jp.setLayout(null);
-        jf.setSize(400, 300);
-        //jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jf.setBounds(300, 120, 400, 300);
         jf.setVisible(true);
     }
 
